@@ -1,11 +1,11 @@
-# Bitwise-Operators
+# Bitwise Operators
 Experiment 4
 
 ## AIM
 To perform bitwise operations and set reset
 
 ## Theory
-### Expriment 4(Part 1)
+### Bitwise Operators:
 Bitwise operators are used to perform operations on the binary representations of integers. They operate at the bit level and are fundamental for tasks that require efficient data manipulation, such as low-level programming, cryptography, and performance optimization. Bitwise operations are faster than arithmetic operations and can be used to implement various algorithms and data structures.
 
 ### Types of Bitwise Operators
@@ -42,17 +42,17 @@ Example:
 Example:
 5 >> 1 (binary: 0101 >> 1) results in 2 (binary: 0010).
 
-### Expriment 4(Part 2)
-#### Binary Setting- 
+### Set and Reset:
+#### Binary Setting
 
 Setting a bit means altering the bit at a specific position to 1 while keeping other bits unchanged. This operation is useful in scenarios where specific flags or bits need to be activated.
 
-#### Binary Setting-
+#### Binary Setting
 
 Resetting a bit involves changing the bit at a specific position to 0 while keeping other bits unchanged. This operation is commonly used to deactivate specific flags or bits.
 
 ## Algorithm 
-### Algorithm for Expriment 4(Part 1)
+### Algorithm for Bitwise Operators
 * Start  
 * Declare two integer variables: a and b.
 
@@ -102,7 +102,7 @@ Resetting a bit involves changing the bit at a specific position to 0 while keep
 * Output the result.
 * End
 
-### Algorithm for Expriment 4(Part 2)
+### Algorithm for Set and Reset
 
 
 1. *Start*
