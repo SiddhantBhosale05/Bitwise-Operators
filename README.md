@@ -105,28 +105,34 @@ Resetting a bit involves changing the bit at a specific position to 0 while keep
 ### Algorithm for Set and Reset
 
 
-1. *Start*
+* Start
 
-2. *Declare Variables*
-   - int a, i, set, reset;
+* Declare Variables
 
-3. *Prompt for and Read Input Values*
-   - Display the message Enter the number.
-   - Read the integer value into variable a.
-   - Display the message Enter the places to shift.
-   - Read the integer value into variable i.
+   *int a, i, set, reset;
 
-4. *Compute*
-   - Create a functionality for setting and resetting by shifting 1 left by i positions: 1 << i.
+* Prompt for and Read Input Values
 
-5. *Set the Bit*
-   - Compute the result by performing OR operation: set = a | (1 << i).
+   *Display the message Enter the number.
+   *Read the integer value into variable a.
+   *Display the message Enter the places to shift.
+   *Read the integer value into variable i.
 
-6. *Reset the Bit*
-   - Compute the result by performing AND operation with the inverted one: reset = a & (~(1 << i)).
+* Compute
 
-7. *Output Results*
-   - Display the result of resetting the bit: cout << reset << endl;.
-   - Display the result of setting the bit: cout << set;.
+   *Create a functionality for setting and resetting by shifting 1 left by i positions: 1 << i.
 
-8. *End*
+* Set the Bit
+
+   *Compute the result by performing OR operation: set = a | (1 << i).
+
+* Reset the Bit
+
+   *Compute the result by performing AND operation with the inverted one: reset = a & (~(1 << i)).
+
+* Output Results
+
+   *Display the result of resetting the bit: cout << reset << endl;.
+   *Display the result of setting the bit: cout << set;.
+
+* End
