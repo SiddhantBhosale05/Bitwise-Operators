@@ -1,6 +1,6 @@
 //Name:Siddhant Kiran Bhosale
 //PRN:23070123038
-//Aim:Implemention of Bitwise Operators Set and Reset
+//Aim:Implementation of Bitwise Operators Set and Reset
 
 #include <iostream>
 using namespace std;
